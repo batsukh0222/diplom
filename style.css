@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #212121;
+    color: white;
+    padding: 20px;
+  }
+  
+  header .logo h1 {
+    font-size: 2rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .featured h2, .genres h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .webtoon-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .webtoon-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .webtoon-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .genre-list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .genre-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
